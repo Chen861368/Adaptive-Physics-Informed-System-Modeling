@@ -62,4 +62,5 @@ file_path = 'F:\\博士课题\\小论文\\杭州湾项目论文\\杭州湾大桥
 
 with your own data file path. Ensure that the dimensions of your data match the requirements of the code for correct execution.
 
+**Note:** In the provided APSM algorithm code example, the ERA (Eigensystem Realization Algorithm) is used as an example to construct the state-space model. However, in practice, you can use any method to build the state-space model, such as DMD (Dynamic Mode Decomposition), SSI (Stochastic Subspace Identification), or NExT + ERA , among others.
 
