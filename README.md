@@ -54,13 +54,46 @@ from scipy.signal import welch
 ```
 
 ### Usage
-To use the code, replace the default data file path in the code:
+
+To use the code, replace the default data file path in the code with your own data file path, for example:
 
 ```python
-file_path = 'F:\\博士课题\\小论文\\杭州湾项目论文\\杭州湾大桥数字孪生模型/data/2015-11-01 00-01-filtered_data.mat'
+file_path = 'F:\\DoctoralResearch\\Paper\\HangzhouBayProject\\HangzhouBayBridgeDigitalTwinModel/data/2015-11-01 00-01-filtered_data.mat'
 ```
 
-with your own data file path. Ensure that the dimensions of your data match the requirements of the code for correct execution.
+And update the save path to your desired directory, for example:
 
-**Note:** In the provided APSM algorithm code example, the ERA (Eigensystem Realization Algorithm) is used as an example to construct the state-space model. However, in practice, you can use any method to build the state-space model, such as DMD (Dynamic Mode Decomposition), SSI (Stochastic Subspace Identification), or NExT + ERA , among others.
+```python
+save_path = "C:\\Users\\HIT\\Desktop" 
+```
+
+Ensure that the dimensions of your data match the requirements of the code for correct execution.
+
+### Five Degrees of Freedom System1
+
+This section contains the **five degrees of freedom system** numerical simulation data and implementation code used in the paper for simulation and validation.
+
+### Five Degrees of Freedom System2
+
+This section is used to compare the performance of the **APSM algorithm** under two conditions: **with physical constraints** and **without physical constraints**, in terms of prediction accuracy and system matrix identification.
+
+- **Notes**:
+  1. The code has a fixed random seed, so you should be able to reproduce the results in the paper.
+  2. **Run the code for the case with physical constraints first, and then run the code for the case without physical constraints separately.**
+  3. **Do not run both codes simultaneously**, as differences in random numbers may result in non-comparable performance.
+  4. To ensure fair comparisons, run the two cases independently.
+
+### APSM_Algorithm
+
+The `APSM_Algorithm` file contains the **ERA (Eigensystem Realization Algorithm)** and the implementation code for processing the **Hangzhou Bay Bridge main beam acceleration data**.
+
+### Notes
+
+- The provided APSM algorithm code uses ERA (Eigensystem Realization Algorithm) as an example to construct the state-space model.
+- In practice, you can use other methods to build the state-space model, such as:
+  - **DMD (Dynamic Mode Decomposition)**
+  - **SSI (Stochastic Subspace Identification)**
+  - **NExT + ERA**, and others.
+
+Make sure to choose the appropriate algorithm and modeling method based on your specific requirements and application scenarios.
 
