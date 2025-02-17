@@ -1,10 +1,19 @@
 # Adaptive Physics-Informed System Modeling (APSM)
 
-Code for **"Adaptive Physics-Informed System Modeling (APSM) for Online Structural Dynamic Simulation"**. This repository implements the APSM algorithm, designed to overcome challenges in modeling nonlinear dynamics, noise, and data sparsity by leveraging real-time monitoring data and integrating residual-based updates with fundamental physical principles.
-
+**Code for preprint Paper** "Adaptive Physics-Informed System Modeling for Online Structural Dynamic Simulation"  
 ---
 
-## Abstract
+#### Paper Abstract
+
+To track the lifetime performance of a structural system, time-varying models are highly effective as they can accurately capture the system’s dynamic and evolving state. However, existing model updating methods face challenges in efficiency and adaptability, making it difficult to simulate the structural system in real time. To address these challenges, this paper proposes a novel approach called Adaptive Physics-Informed System Modeling (APSM), specifically designed for online identification of structural conditions and accurate simulation of structural dynamic responses. APSM employs time-varying state-space models to address nonlinear dynamics and introduces a framework that integrates residual-based updates with physical information at each time step. The system matrices identified through this method possess clear physical significance, offering valuable insights into the dynamic properties of the structural system. The proposed method has been validated through a five-degree-of-freedom numerical case and real-world data from the Hangzhou Bay Bridge. It demonstrates advanced robustness and high precision for online structural dynamic simulation, with a Normalized Mean Squared Error (NMSE) of 2.107% for time-domain predictions on unseen data, significantly outperforming classical approaches.
+
+#### Introduction
+
+The paper is available on SSRN at: [apers.ssrn.com/sol3/papers.cfm?abstract_id=5097818](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5097818)  
+This repository implements the APSM algorithm, designed to overcome challenges in modeling nonlinear dynamics, noise, and data sparsity by leveraging real-time monitoring data and integrating residual-based updates with fundamental physical principles.
+
+
+## Highlights
 
 To track the lifetime performance of structural systems, time-varying models are highly effective as they can accurately capture the system's dynamic and evolving states. However, existing model updating methods face challenges in efficiency and adaptability, making real-time simulation of structural systems difficult.
 
