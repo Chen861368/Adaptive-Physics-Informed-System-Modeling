@@ -13,7 +13,7 @@ The paper is available on SSRN at: [apers.ssrn.com/sol3/papers.cfm?abstract_id=5
 This repository implements the APSM algorithm, designed to overcome challenges in modeling nonlinear dynamics, noise, and data sparsity by leveraging real-time monitoring data and integrating residual-based updates with fundamental physical principles.
 
 
-## Highlights
+## Summary
 
 To track the lifetime performance of structural systems, time-varying models are highly effective as they can accurately capture the system's dynamic and evolving states. However, existing model updating methods face challenges in efficiency and adaptability, making real-time simulation of structural systems difficult.
 
