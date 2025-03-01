@@ -5,7 +5,25 @@
 
 #### Paper Abstract
 
-To track the lifetime performance of a structural system, time-varying models are highly effective as they can accurately capture the system’s dynamic and evolving state. However, existing model updating methods face challenges in efficiency and adaptability, making it difficult to simulate the structural system in real time. To address these challenges, this paper proposes a novel approach called Adaptive Physics-Informed System Modeling (APSM), specifically designed for online identification of structural conditions and accurate simulation of structural dynamic responses. APSM employs time-varying state-space models to address nonlinear dynamics and introduces a framework that integrates residual-based updates with physical information at each time step. The system matrices identified through this method possess clear physical significance, offering valuable insights into the dynamic properties of the structural system. The proposed method has been validated through a five-degree-of-freedom numerical case and real-world data from the Hangzhou Bay Bridge. It demonstrates advanced robustness and high precision for online structural dynamic simulation, with a Normalized Mean Squared Error (NMSE) of 2.107% for time-domain predictions on unseen data, significantly outperforming classical approaches.
+To track the lifetime performance of a structural system, time-varying models are highly effective as they can accurately capture the system’s dynamic and evolving state. However, existing model updating methods face challenges in efficiency and adaptability, making it difficult to simulate the structural system in real time. 
+
+<p align="center">
+  <img src="model_updating.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="50%" />
+</p>
+
+
+To address these challenges, this paper proposes a novel approach called Adaptive Physics-Informed System Modeling (APSM), specifically designed for online identification of structural conditions and accurate simulation of structural dynamic responses. APSM employs time-varying state-space models to address nonlinear dynamics and introduces a framework that integrates residual-based updates with physical information at each time step. 
+
+<p align="center">
+  <img src="APSM.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="70%" />
+</p>
+
+
+The system matrices identified through this method possess clear physical significance, offering valuable insights into the dynamic properties of the structural system. The proposed method has been validated through a five-degree-of-freedom numerical case and real-world data from the Hangzhou Bay Bridge. It demonstrates advanced robustness and high precision for online structural dynamic simulation, with a Normalized Mean Squared Error (NMSE) of 2.107% for time-domain predictions on unseen data, significantly outperforming classical approaches.
+
+
+
+
 
 #### Introduction
 
@@ -103,6 +121,14 @@ The `APSM_Algorithm` file contains the **ERA (Eigensystem Realization Algorithm)
   - **DMD (Dynamic Mode Decomposition)**
   - **SSI (Stochastic Subspace Identification)**
   - **NExT + ERA**, and others.
+<p align="center">
+  <img src="APSM_applications.png" alt="A schematic representation of the minimal realization time delay Koopman system identification algorithm process." width="70%" />
+</p>
+
+
+
+
+
 
 Make sure to choose the appropriate algorithm and modeling method based on your specific requirements and application scenarios.
 
