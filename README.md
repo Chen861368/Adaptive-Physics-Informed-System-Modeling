@@ -1,6 +1,9 @@
 # Adaptive Physics-Informed System Modeling (APSM)
 
 **Code for preprint Paper** "Adaptive Physics-Informed System Modeling for Online Structural Dynamic Simulation"  
+
+If you're interested in learning more about my research, a brief introduction of **my personal research homepage** can be found on [GitHub](https://github.com/Chen861368/Personal-Research-Path).
+
 ---
 
 #### Paper Abstract
