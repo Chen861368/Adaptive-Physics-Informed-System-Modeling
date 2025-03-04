@@ -6,7 +6,7 @@ If you're interested in learning more about my research, a brief introduction of
 
 ---
 
-#### Paper Abstract
+## Paper Abstract
 
 To track the lifetime performance of a structural system, time-varying models are highly effective as they can accurately capture the system’s dynamic and evolving state. However, existing model updating methods face challenges in efficiency and adaptability, making it difficult to simulate the structural system in real time. 
 
@@ -24,11 +24,7 @@ To address these challenges, this paper proposes a novel approach called Adaptiv
 
 The system matrices identified through this method possess clear physical significance, offering valuable insights into the dynamic properties of the structural system. The proposed method has been validated through a five-degree-of-freedom numerical case and real-world data from the Hangzhou Bay Bridge. It demonstrates advanced robustness and high precision for online structural dynamic simulation, with a Normalized Mean Squared Error (NMSE) of 2.107% for time-domain predictions on unseen data, significantly outperforming classical approaches.
 
-
-
-
-
-#### Introduction
+## Introduction
 
 The paper is available on SSRN at: [apers.ssrn.com/sol3/papers.cfm?abstract_id=5097818](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5097818)  
 This repository implements the APSM algorithm, designed to overcome challenges in modeling nonlinear dynamics, noise, and data sparsity by leveraging real-time monitoring data and integrating residual-based updates with fundamental physical principles.
